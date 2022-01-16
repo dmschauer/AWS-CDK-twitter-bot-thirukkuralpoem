@@ -5,7 +5,7 @@ This project automatically sets up AWS resources which are used to run an automa
 
 You can find the Bot here: https://twitter.com/Thirukkuralpoem
 
-What it does is periodically tweeting 1 of 1330 poems (or Kurals) from the Thirrukual (a classical text by Tamil poets from more than 1000 years ago). You can learn more about the poems [here](https://github.com/tk120404/thirukkural) and [here](https://en.wikipedia.org/wiki/Kural). The former is also where I found the collection of poems used for this project in an easy to process format and including English translations.
+What it does is periodically tweeting 1 of 1330 poems, or Kurals, from the Thirukkural which is a classical text by Tamil poets from more than 1000 years ago. You can learn more about the poems [here](https://github.com/tk120404/thirukkural) and [here](https://en.wikipedia.org/wiki/Kural). The former is also where I found the collection of poems used for this project in an easy to process format and including English translations.
 
 From a technical perspective, the project demonstrates a CDK app with an instance of a stack (`ThirukkuralpoemStack`)
 which contains:
