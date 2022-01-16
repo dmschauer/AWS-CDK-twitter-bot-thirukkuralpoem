@@ -34,3 +34,6 @@ lambda_layer/*
 
 # proprietary
 images/twitter-bot-thirrukuralpoem.pptx
+
+# secrets
+password.txt
