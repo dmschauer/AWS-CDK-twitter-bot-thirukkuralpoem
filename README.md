@@ -5,7 +5,7 @@ This project automatically sets up AWS resources which are used to run an automa
 
 You can find the Bot here: https://twitter.com/Thirukkuralpoem
 
-What it does is periodically tweeting 1 of 1330 poems (or Kurals) from the Thirrukual (a classical text by Tamil poets from more than 1000 years ago). You can learn more about the poems [here](https://github.com/tk120404/thirukkural) here  and [here](https://en.wikipedia.org/wiki/Kural). The former is also where I found the collection of poems used for this project in an easy to process format and including English translations.
+What it does is periodically tweeting 1 of 1330 poems (or Kurals) from the Thirrukual (a classical text by Tamil poets from more than 1000 years ago). You can learn more about the poems [here](https://github.com/tk120404/thirukkural) and [here](https://en.wikipedia.org/wiki/Kural). The former is also where I found the collection of poems used for this project in an easy to process format and including English translations.
 
 From a technical perspective, the project demonstrates a CDK app with an instance of a stack (`ThirukkuralpoemStack`)
 which contains:
@@ -38,7 +38,7 @@ After this you're good to follow the standard instructions on running CDK projec
 
 # Configuration
 
-Critically you will need to get Twitter API credentials before you deploy the stack in case you want to actually tweet something. There are lots of tutorials on obtaining them out there (https://developer.twitter.com/en). After you got the credentials, follow the instructions in ```./settings/twitter_settings_template.py```. Here you will need to set all environment variables listed.
+Critically you will need to get Twitter API credentials before you deploy the stack in case you want to actually tweet something (see https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api). There are also lots of tutorials on obtaining them out there. After you got the credentials, follow the instructions in ```./settings/twitter_settings_template.py```. Here you will need to set all environment variables still showing placeholders.
 
 # Cost
 As of the time of this writing, the resources used here are all within the Always Free tier of AWS and far from exceeding it. (Of course you need to keep in mind if you have other resources running that might exceed the free tier in combination with this project)
