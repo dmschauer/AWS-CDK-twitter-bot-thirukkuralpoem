@@ -17,6 +17,8 @@ which contains:
 
 One of the Functions is used to populate the DynamoDB table with the poems and the second one queries the table for a poem once a day and tweets it. I added some logic that cycles over the table depending on the day it's called, so after about 3-4 years of running the Bot the poems will start to become posted repeatedly.
 
+![twitter-bot-thirukkuralpoem](./images/twitter-bot-thirukkuralpoem.png)
+
 # Running it
 
 You will need your own Twitter account to truly test things out in their entirety but to set everything up to the point that you only need to rename the account names and other specifics do the following:
