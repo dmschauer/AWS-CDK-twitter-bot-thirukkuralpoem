@@ -32,8 +32,5 @@ settings/*
 lambda_layer/*
 !lambda_layer/python/lib/python3.9/site-packages/requirements.txt
 
-# proprietary
-images/twitter-bot-thirrukuralpoem.pptx
-
 # secrets
 password.txt
