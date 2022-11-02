@@ -1,4 +1,4 @@
-# In a real application I would use AWS KMS and store the secrets there. 
+# In a real application I would use AWS Parameter Store and store the secrets there. 
 # As outlined here, it would have to be deployed manually if you want to 
 # use a custom/pre-defined value in your secret:
 # - https://pypi.org/project/aws-cdk.aws-secretsmanager/
